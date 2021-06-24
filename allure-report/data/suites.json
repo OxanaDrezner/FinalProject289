@@ -1,0 +1,210 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Desktop Suite",
+    "children" : [ {
+      "name" : "Desktop Tests",
+      "children" : [ {
+        "name" : "sanity.CalculatorDesktop",
+        "children" : [ {
+          "name" : "Test01 - Verify Addition Command",
+          "uid" : "5d2ecb951340523c",
+          "parentUid" : "772d86e75d53a69c5be5381e7be605ab",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622578702359,
+            "stop" : 1622578708917,
+            "duration" : 6558
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "desktop" ]
+        } ],
+        "uid" : "772d86e75d53a69c5be5381e7be605ab"
+      } ],
+      "uid" : "dbf03850cd233b1373785946d7f954f7"
+    } ],
+    "uid" : "221d2bebf5f1022220126c4db1cfd5b3"
+  }, {
+    "name" : "Electron Suite",
+    "children" : [ {
+      "name" : "Electron Tests",
+      "children" : [ {
+        "name" : "sanity.ToDoListElectron",
+        "children" : [ {
+          "name" : "Test01 - Add and Verify New Task",
+          "uid" : "e29ee991bc116e08",
+          "parentUid" : "5fc75d09c24a145b24361e308e534d5a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622578936925,
+            "stop" : 1622578938280,
+            "duration" : 1355
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "Test02 - Add Task with color tag and Verify the color",
+          "uid" : "a4a384e127581059",
+          "parentUid" : "5fc75d09c24a145b24361e308e534d5a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622578943940,
+            "stop" : 1622578945099,
+            "duration" : 1159
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "Test03 - Add New Tasks, Delete 1 Task and Verify Deletion",
+          "uid" : "34b7f806fd826e90",
+          "parentUid" : "5fc75d09c24a145b24361e308e534d5a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622578945634,
+            "stop" : 1622578947546,
+            "duration" : 1912
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        } ],
+        "uid" : "5fc75d09c24a145b24361e308e534d5a"
+      } ],
+      "uid" : "7e8f470af5ee8658e53c49017794daff"
+    } ],
+    "uid" : "ba8d12a976d74943fc854e5acbb7d9f1"
+  }, {
+    "name" : "Web Suite",
+    "children" : [ {
+      "name" : "Web Tests",
+      "children" : [ {
+        "name" : "sanity.NopCommerceWEB",
+        "children" : [ {
+          "name" : "Test01 - Verify Registration",
+          "uid" : "2a6c756e710d4f70",
+          "parentUid" : "51df5ec8f3df0f8c4fa6726439dba0c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623050011589,
+            "stop" : 1623050020715,
+            "duration" : 9126
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test02 - Verify List Order - Low to High",
+          "uid" : "826a74b2fdcd6121",
+          "parentUid" : "51df5ec8f3df0f8c4fa6726439dba0c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623050022645,
+            "stop" : 1623050026364,
+            "duration" : 3719
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test03 - Verify Addition To Cart",
+          "uid" : "349a520179f77368",
+          "parentUid" : "51df5ec8f3df0f8c4fa6726439dba0c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623050028137,
+            "stop" : 1623050036801,
+            "duration" : 8664
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test04 - Verify Deletion Last Product From Cart",
+          "uid" : "a328d95dda754210",
+          "parentUid" : "51df5ec8f3df0f8c4fa6726439dba0c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623050038401,
+            "stop" : 1623050044124,
+            "duration" : 5723
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test05 - Verify Social Media Links",
+          "uid" : "ae0fa5e2b34db5a9",
+          "parentUid" : "51df5ec8f3df0f8c4fa6726439dba0c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623050044800,
+            "stop" : 1623050045395,
+            "duration" : 595
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test06 - Verify LOGO",
+          "uid" : "2896aa8a3c24a80a",
+          "parentUid" : "51df5ec8f3df0f8c4fa6726439dba0c6",
+          "status" : "failed",
+          "time" : {
+            "start" : 1623050046068,
+            "stop" : 1623050046799,
+            "duration" : 731
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test07 - Search And Verify Products",
+          "uid" : "7643419f4daa49d7",
+          "parentUid" : "51df5ec8f3df0f8c4fa6726439dba0c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623050047524,
+            "stop" : 1623050050001,
+            "duration" : 2477
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web", "Nike Floral Roshe Customized Running Shoes", "exist" ]
+        }, {
+          "name" : "Test07 - Search And Verify Products",
+          "uid" : "359a1bb3f1dd4cee",
+          "parentUid" : "51df5ec8f3df0f8c4fa6726439dba0c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623050050778,
+            "stop" : 1623050062445,
+            "duration" : 11667
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web", "Puma Running Shoes", "not-exist" ]
+        }, {
+          "name" : "Test07 - Search And Verify Products",
+          "uid" : "edf4d56f87c6e21e",
+          "parentUid" : "51df5ec8f3df0f8c4fa6726439dba0c6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1623050064289,
+            "stop" : 1623050066706,
+            "duration" : 2417
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web", "adidas Consortium Campus 80s Running Shoes", "exist" ]
+        } ],
+        "uid" : "51df5ec8f3df0f8c4fa6726439dba0c6"
+      } ],
+      "uid" : "fbd747309552d470d458686a49ca6eb7"
+    } ],
+    "uid" : "3ee6c328cd13b7bf8cf2e1560d3cdfae"
+  } ]
+}

@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Error Comparing Image Files: FindFailed: C:/Automation/FinalProject/ImageRepository/LOGO_NopCommerce.png: (0x0) in R[0,0 1920x1080]@S(0)\n  Line 2287, in file Region.java\n",
+      "children" : [ {
+        "name" : "Test06 - Verify LOGO",
+        "uid" : "2896aa8a3c24a80a",
+        "parentUid" : "d125b6cd0c230bb6417ea5e575456dc0",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623050046068,
+          "stop" : 1623050046799,
+          "duration" : 731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "d125b6cd0c230bb6417ea5e575456dc0"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

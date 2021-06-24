@@ -1,0 +1,301 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "Oxana",
+    "children" : [ {
+      "name" : "12584@Oxana.main(1)",
+      "children" : [ {
+        "name" : "Test03 - Verify Addition To Cart",
+        "uid" : "349a520179f77368",
+        "parentUid" : "64d0e8be02042991e27ac930c5f4d374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623050028137,
+          "stop" : 1623050036801,
+          "duration" : 8664
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search And Verify Products",
+        "uid" : "7643419f4daa49d7",
+        "parentUid" : "64d0e8be02042991e27ac930c5f4d374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623050047524,
+          "stop" : 1623050050001,
+          "duration" : 2477
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "Nike Floral Roshe Customized Running Shoes", "exist" ]
+      }, {
+        "name" : "Test06 - Verify LOGO",
+        "uid" : "2896aa8a3c24a80a",
+        "parentUid" : "64d0e8be02042991e27ac930c5f4d374",
+        "status" : "failed",
+        "time" : {
+          "start" : 1623050046068,
+          "stop" : 1623050046799,
+          "duration" : 731
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07 - Search And Verify Products",
+        "uid" : "edf4d56f87c6e21e",
+        "parentUid" : "64d0e8be02042991e27ac930c5f4d374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623050064289,
+          "stop" : 1623050066706,
+          "duration" : 2417
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "adidas Consortium Campus 80s Running Shoes", "exist" ]
+      }, {
+        "name" : "Test07 - Search And Verify Products",
+        "uid" : "359a1bb3f1dd4cee",
+        "parentUid" : "64d0e8be02042991e27ac930c5f4d374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623050050778,
+          "stop" : 1623050062445,
+          "duration" : 11667
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web", "Puma Running Shoes", "not-exist" ]
+      }, {
+        "name" : "Test04 - Verify Deletion Last Product From Cart",
+        "uid" : "a328d95dda754210",
+        "parentUid" : "64d0e8be02042991e27ac930c5f4d374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623050038401,
+          "stop" : 1623050044124,
+          "duration" : 5723
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02 - Verify List Order - Low to High",
+        "uid" : "826a74b2fdcd6121",
+        "parentUid" : "64d0e8be02042991e27ac930c5f4d374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623050022645,
+          "stop" : 1623050026364,
+          "duration" : 3719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01 - Verify Registration",
+        "uid" : "2a6c756e710d4f70",
+        "parentUid" : "64d0e8be02042991e27ac930c5f4d374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623050011589,
+          "stop" : 1623050020715,
+          "duration" : 9126
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05 - Verify Social Media Links",
+        "uid" : "ae0fa5e2b34db5a9",
+        "parentUid" : "64d0e8be02042991e27ac930c5f4d374",
+        "status" : "passed",
+        "time" : {
+          "start" : 1623050044800,
+          "stop" : 1623050045395,
+          "duration" : 595
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "64d0e8be02042991e27ac930c5f4d374"
+    }, {
+      "name" : "3320@Oxana.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Add and Verify New Task",
+        "uid" : "d2c78b0fd1b546dc",
+        "parentUid" : "f7142b17041da4fd12dfd31abcf93c53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622578756490,
+          "stop" : 1622578758252,
+          "duration" : 1762
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test02 - Add Task with color tag and Verify the color",
+        "uid" : "1ff8cb2e0bbda81f",
+        "parentUid" : "f7142b17041da4fd12dfd31abcf93c53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622578763918,
+          "stop" : 1622578765024,
+          "duration" : 1106
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test03 - Add New Tasks, Delete 1 Task and Verify Deletion",
+        "uid" : "84a87baa97a3b081",
+        "parentUid" : "f7142b17041da4fd12dfd31abcf93c53",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622578765622,
+          "stop" : 1622578767283,
+          "duration" : 1661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "f7142b17041da4fd12dfd31abcf93c53"
+    }, {
+      "name" : "9252@Oxana.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Registration",
+        "uid" : "6f3228a0888d5336",
+        "parentUid" : "937a6a43686f49074f4bc38252048327",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622795659183,
+          "stop" : 1622795665542,
+          "duration" : 6359
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "937a6a43686f49074f4bc38252048327"
+    }, {
+      "name" : "14300@Oxana.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Addition Command",
+        "uid" : "5d2ecb951340523c",
+        "parentUid" : "e93af8582f759dbced3275c40c1b3874",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622578702359,
+          "stop" : 1622578708917,
+          "duration" : 6558
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "e93af8582f759dbced3275c40c1b3874"
+    }, {
+      "name" : "7912@Oxana.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Addition Command",
+        "uid" : "5a018d3d77b37ec6",
+        "parentUid" : "6523886c5194b87de76678fc9b3dcad8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622576746396,
+          "stop" : 1622576752168,
+          "duration" : 5772
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "6523886c5194b87de76678fc9b3dcad8"
+    }, {
+      "name" : "5564@Oxana.main(1)",
+      "children" : [ {
+        "name" : "Test02 - Add Task with color tag and Verify the color",
+        "uid" : "a4a384e127581059",
+        "parentUid" : "12fbc714f599943be50590f9eae16667",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622578943940,
+          "stop" : 1622578945099,
+          "duration" : 1159
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test01 - Add and Verify New Task",
+        "uid" : "e29ee991bc116e08",
+        "parentUid" : "12fbc714f599943be50590f9eae16667",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622578936925,
+          "stop" : 1622578938280,
+          "duration" : 1355
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test03 - Add New Tasks, Delete 1 Task and Verify Deletion",
+        "uid" : "34b7f806fd826e90",
+        "parentUid" : "12fbc714f599943be50590f9eae16667",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622578945634,
+          "stop" : 1622578947546,
+          "duration" : 1912
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "12fbc714f599943be50590f9eae16667"
+    }, {
+      "name" : "3564@Oxana.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Registration",
+        "uid" : "a19ca7ce60f40a30",
+        "parentUid" : "56e111d42048b40561ca45e074616b78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622973180908,
+          "stop" : 1622973187643,
+          "duration" : 6735
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "56e111d42048b40561ca45e074616b78"
+    }, {
+      "name" : "1248@Oxana.main(1)",
+      "children" : [ {
+        "name" : "Test01 - Verify Registration",
+        "uid" : "50b5383308752d0f",
+        "parentUid" : "45571e801697bb18ff257ff8ae5eadf2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622578574598,
+          "stop" : 1622578582688,
+          "duration" : 8090
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "45571e801697bb18ff257ff8ae5eadf2"
+    } ],
+    "uid" : "239f43fcc3320aa23720868f1e5cf533"
+  } ]
+}

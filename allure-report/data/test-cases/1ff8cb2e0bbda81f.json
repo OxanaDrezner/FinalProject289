@@ -1,0 +1,379 @@
+{
+  "uid" : "1ff8cb2e0bbda81f",
+  "name" : "Test02 - Add Task with color tag and Verify the color",
+  "fullName" : "sanity.ToDoListElectron.Test02_addTaskWithColorTagAndVerifyTheColor",
+  "historyId" : "19a424d57e220db0f7f24bc54c5141d5",
+  "time" : {
+    "start" : 1622578763918,
+    "stop" : 1622578765024,
+    "duration" : 1106
+  },
+  "description" : "This test adds a new task tagged by color and verifies the color shown is correct",
+  "descriptionHtml" : "<p>This test adds a new task tagged by color and verifies the color shown is correct</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1622578750017,
+      "stop" : 1622578756066,
+      "duration" : 6049
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test adds a new task tagged by color and verifies the color shown is correct",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Add New Task with Color Tag to the List",
+      "time" : {
+        "start" : 1622578763918,
+        "stop" : 1622578764798,
+        "duration" : 880
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text in Element",
+        "time" : {
+          "start" : 1622578763943,
+          "stop" : 1622578764114,
+          "duration" : 171
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (a89301c1be342f1437af1b12853139ba)] -> xpath: //input[@placeholder='Create a task']]"
+        }, {
+          "name" : "text",
+          "value" : "Learn Java"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1622578764139,
+          "stop" : 1622578764280,
+          "duration" : 141
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (a89301c1be342f1437af1b12853139ba)] -> class name: downArrowIcon_3Zu5N]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "TodoList: Insert Tag Color, returns it's Index",
+        "time" : {
+          "start" : 1622578764288,
+          "stop" : 1622578764288,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "color",
+          "value" : "Grey"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1622578764345,
+          "stop" : 1622578764454,
+          "duration" : 109
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (a89301c1be342f1437af1b12853139ba)] -> xpath: //span[@class='tag_21fhY']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Insert Key",
+        "time" : {
+          "start" : 1622578764474,
+          "stop" : 1622578764798,
+          "duration" : 324
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (a89301c1be342f1437af1b12853139ba)] -> xpath: //input[@placeholder='Create a task']]"
+        }, {
+          "name" : "value",
+          "value" : ""
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taskName",
+        "value" : "Learn Java"
+      }, {
+        "name" : "colorTag",
+        "value" : "Grey"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Assert Text In Attribute",
+      "time" : {
+        "start" : 1622578764843,
+        "stop" : 1622578764891,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (a89301c1be342f1437af1b12853139ba)] -> class name: tag_3u4he]"
+      }, {
+        "name" : "attribute",
+        "value" : "style"
+      }, {
+        "name" : "expected",
+        "value" : "background: rgb(165, 165, 167);"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "afterMethodProcedures",
+    "time" : {
+      "start" : 1622578765030,
+      "stop" : 1622578765606,
+      "duration" : 576
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clear Tasks from List",
+      "time" : {
+        "start" : 1622578765032,
+        "stop" : 1622578765246,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Business Flow: Count and Return Number of Tasks in List",
+        "time" : {
+          "start" : 1622578765032,
+          "stop" : 1622578765043,
+          "duration" : 11
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "MouseHover 1 Element",
+        "time" : {
+          "start" : 1622578765058,
+          "stop" : 1622578765224,
+          "duration" : 166
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (a89301c1be342f1437af1b12853139ba)] -> class name: destroy_19w1q]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Business Flow: Count and Return Number of Tasks in List",
+        "time" : {
+          "start" : 1622578765224,
+          "stop" : 1622578765246,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Clear Tag",
+      "time" : {
+        "start" : 1622578765246,
+        "stop" : 1622578765606,
+        "duration" : 360
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1622578765326,
+          "stop" : 1622578765484,
+          "duration" : 158
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (a89301c1be342f1437af1b12853139ba)] -> xpath: //span[@class='tag_21fhY hasNoTag_3ftX1']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1622578765498,
+          "stop" : 1622578765606,
+          "duration" : 108
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (a89301c1be342f1437af1b12853139ba)] -> class name: downArrowIcon_3Zu5N]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 7,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1622578767654,
+      "stop" : 1622578768306,
+      "duration" : 652
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test02_addTaskWithColorTagAndVerifyTheColor"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Electron Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Electron Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "host",
+    "value" : "Oxana"
+  }, {
+    "name" : "thread",
+    "value" : "3320@Oxana.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "electron"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ff8cb2e0bbda81f.json",
+  "parameterValues" : [ "electron" ]
+}

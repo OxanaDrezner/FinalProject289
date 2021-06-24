@@ -1,0 +1,210 @@
+{
+  "uid" : "359a1bb3f1dd4cee",
+  "name" : "Test07 - Search And Verify Products",
+  "fullName" : "sanity.NopCommerceWEB.Test07_searchAndVerifyProducts",
+  "historyId" : "5059faebec1196e2c60e8c48a5bf90f5",
+  "time" : {
+    "start" : 1623050050778,
+    "stop" : 1623050062445,
+    "duration" : 11667
+  },
+  "description" : "This test Searches And Verifies Products (using DDT)",
+  "descriptionHtml" : "<p>This test Searches And Verifies Products (using DDT)</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1623050002278,
+      "stop" : 1623050011282,
+      "duration" : 9004
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test Searches And Verifies Products (using DDT)",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Search And Verify Product",
+      "time" : {
+        "start" : 1623050050778,
+        "stop" : 1623050062248,
+        "duration" : 11470
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text in Element",
+        "time" : {
+          "start" : 1623050050803,
+          "stop" : 1623050051105,
+          "duration" : 302
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (be5001b4ce3ac6fd6b9ea3803be11352)] -> id: small-searchterms]"
+        }, {
+          "name" : "text",
+          "value" : "Puma Running Shoes"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1623050051135,
+          "stop" : 1623050052146,
+          "duration" : 1011
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on WINDOWS (be5001b4ce3ac6fd6b9ea3803be11352)] -> xpath: //button[@class='button-1 search-box-button']]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Assert List is Empty",
+        "time" : {
+          "start" : 1623050057217,
+          "stop" : 1623050062248,
+          "duration" : 5031
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "list",
+          "value" : "[]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "productName",
+        "value" : "Puma Running Shoes"
+      }, {
+        "name" : "shouldExist",
+        "value" : "not-exist"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1623050067390,
+      "stop" : 1623050068116,
+      "duration" : 726
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterMethodProcedures",
+    "time" : {
+      "start" : 1623050062449,
+      "stop" : 1623050064257,
+      "duration" : 1808
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.NopCommerceWEB"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.NopCommerceWEB"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test07_searchAndVerifyProducts"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.NopCommerceWEB"
+  }, {
+    "name" : "host",
+    "value" : "Oxana"
+  }, {
+    "name" : "thread",
+    "value" : "12584@Oxana.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  }, {
+    "name" : "arg0",
+    "value" : "Puma Running Shoes"
+  }, {
+    "name" : "arg1",
+    "value" : "not-exist"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "359a1bb3f1dd4cee.json",
+  "parameterValues" : [ "web", "Puma Running Shoes", "not-exist" ]
+}

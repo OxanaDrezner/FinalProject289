@@ -1,0 +1,346 @@
+{
+  "uid" : "e29ee991bc116e08",
+  "name" : "Test01 - Add and Verify New Task",
+  "fullName" : "sanity.ToDoListElectron.Test01_addAndVerifyNewTask",
+  "historyId" : "2ce8e041976b76a2283c5d9b9a3ada54",
+  "time" : {
+    "start" : 1622578936925,
+    "stop" : 1622578938280,
+    "duration" : 1355
+  },
+  "description" : "This test adds a new task and verifies it's addition",
+  "descriptionHtml" : "<p>This test adds a new task and verifies it's addition</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1622578930398,
+      "stop" : 1622578936499,
+      "duration" : 6101
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test adds a new task and verifies it's addition",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Add New Task to the List",
+      "time" : {
+        "start" : 1622578937030,
+        "stop" : 1622578937941,
+        "duration" : 911
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Update Text in Element",
+        "time" : {
+          "start" : 1622578937187,
+          "stop" : 1622578937613,
+          "duration" : 426
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (975beec4791c4a3b276593267354c92b)] -> xpath: //input[@placeholder='Create a task']]"
+        }, {
+          "name" : "text",
+          "value" : "Learn Java"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Insert Key",
+        "time" : {
+          "start" : 1622578937647,
+          "stop" : 1622578937941,
+          "duration" : 294
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (975beec4791c4a3b276593267354c92b)] -> xpath: //input[@placeholder='Create a task']]"
+        }, {
+          "name" : "value",
+          "value" : ""
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "taskName",
+        "value" : "Learn Java"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Business Flow: Count and Return Number of Tasks in List",
+      "time" : {
+        "start" : 1622578937941,
+        "stop" : 1622578938008,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Assert Number",
+      "time" : {
+        "start" : 1622578938065,
+        "stop" : 1622578938088,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "actual",
+        "value" : "1"
+      }, {
+        "name" : "expected",
+        "value" : "1"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1622578947854,
+      "stop" : 1622578948498,
+      "duration" : 644
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterMethodProcedures",
+    "time" : {
+      "start" : 1622578938605,
+      "stop" : 1622578943904,
+      "duration" : 5299
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Clear Tasks from List",
+      "time" : {
+        "start" : 1622578938605,
+        "stop" : 1622578943846,
+        "duration" : 5241
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Business Flow: Count and Return Number of Tasks in List",
+        "time" : {
+          "start" : 1622578938605,
+          "stop" : 1622578938625,
+          "duration" : 20
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "MouseHover 1 Element",
+        "time" : {
+          "start" : 1622578938659,
+          "stop" : 1622578938811,
+          "duration" : 152
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (975beec4791c4a3b276593267354c92b)] -> class name: destroy_19w1q]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Business Flow: Count and Return Number of Tasks in List",
+        "time" : {
+          "start" : 1622578938811,
+          "stop" : 1622578943846,
+          "duration" : 5035
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Clear Tag",
+      "time" : {
+        "start" : 1622578943846,
+        "stop" : 1622578943904,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 5,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_addAndVerifyNewTask"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Electron Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Electron Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.ToDoListElectron"
+  }, {
+    "name" : "host",
+    "value" : "Oxana"
+  }, {
+    "name" : "thread",
+    "value" : "5564@Oxana.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "electron"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d2c78b0fd1b546dc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622578756490,
+        "stop" : 1622578758252,
+        "duration" : 1762
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "a87c1327ddde95ce",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/13/allure/#testresult/a87c1327ddde95ce",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622453862957,
+          "stop" : 1622453864003,
+          "duration" : 1046
+        }
+      }, {
+        "uid" : "2a170b5d0881b7dd",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/12/allure/#testresult/2a170b5d0881b7dd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622453862957,
+          "stop" : 1622453864003,
+          "duration" : 1046
+        }
+      }, {
+        "uid" : "cf1b94e2718d7bcd",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/11/allure/#testresult/cf1b94e2718d7bcd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622453862957,
+          "stop" : 1622453864003,
+          "duration" : 1046
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e29ee991bc116e08.json",
+  "parameterValues" : [ "electron" ]
+}

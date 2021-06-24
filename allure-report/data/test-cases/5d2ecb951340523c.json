@@ -1,0 +1,367 @@
+{
+  "uid" : "5d2ecb951340523c",
+  "name" : "Test01 - Verify Addition Command",
+  "fullName" : "sanity.CalculatorDesktop.Test01_verifyAdditionCommand",
+  "historyId" : "8dcac70d2bb1791407520efbb01c16f1",
+  "time" : {
+    "start" : 1622578702359,
+    "stop" : 1622578708917,
+    "duration" : 6558
+  },
+  "description" : "This test sums numbers and Verifies the Result",
+  "descriptionHtml" : "<p>This test sums numbers and Verifies the Result</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "startSession",
+    "time" : {
+      "start" : 1622578696868,
+      "stop" : 1622578701942,
+      "duration" : 5074
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This test sums numbers and Verifies the Result",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Calculate Addition",
+      "time" : {
+        "start" : 1622578702449,
+        "stop" : 1622578707434,
+        "duration" : 4985
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Calculator: Insert Number, returns it's WebElement",
+        "time" : {
+          "start" : 1622578702475,
+          "stop" : 1622578702477,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "num",
+          "value" : "1"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1622578702756,
+          "stop" : 1622578704072,
+          "duration" : 1316
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: One]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1622578704227,
+          "stop" : 1622578705146,
+          "duration" : 919
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: Plus]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Calculator: Insert Number, returns it's WebElement",
+        "time" : {
+          "start" : 1622578705146,
+          "stop" : 1622578705146,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "num",
+          "value" : "8"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1622578705399,
+          "stop" : 1622578706359,
+          "duration" : 960
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: Eight]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1622578706547,
+          "stop" : 1622578707434,
+          "duration" : 887
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: Equals]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "num1",
+        "value" : "1"
+      }, {
+        "name" : "num2",
+        "value" : "8"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Assert Text In Element",
+      "time" : {
+        "start" : 1622578707891,
+        "stop" : 1622578708773,
+        "duration" : 882
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> xpath: //*[@AutomationId='CalculatorResults']]"
+      }, {
+        "name" : "expected",
+        "value" : "Display is 9"
+      } ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "closeSession",
+    "time" : {
+      "start" : 1622578710030,
+      "stop" : 1622578710148,
+      "duration" : 118
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "afterMethodProcedures",
+    "time" : {
+      "start" : 1622578709128,
+      "stop" : 1622578710011,
+      "duration" : 883
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Click on 'Clear' button",
+      "time" : {
+        "start" : 1622578709128,
+        "stop" : 1622578710011,
+        "duration" : 883
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on Element",
+        "time" : {
+          "start" : 1622578709260,
+          "stop" : 1622578710011,
+          "duration" : 751
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[io.appium.java_client.windows.WindowsDriver, Capabilities: {app=Microsoft.WindowsCalculator_8wekyb3d8bbwe!App, javascriptEnabled=true, platform=WINDOWS, platformName=Windows}] -> name: Clear]"
+        } ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.CalculatorDesktop"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.CalculatorDesktop"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test01_verifyAdditionCommand"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Desktop Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Desktop Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.CalculatorDesktop"
+  }, {
+    "name" : "host",
+    "value" : "Oxana"
+  }, {
+    "name" : "thread",
+    "value" : "14300@Oxana.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "desktop"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5a018d3d77b37ec6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622576746396,
+        "stop" : 1622576752168,
+        "duration" : 5772
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "d91b5dcbaae41594",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/16/allure/#testresult/d91b5dcbaae41594",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622576746396,
+          "stop" : 1622576752168,
+          "duration" : 5772
+        }
+      }, {
+        "uid" : "cc8a339ea42558cb",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/13/allure/#testresult/cc8a339ea42558cb",
+        "status" : "failed",
+        "statusDetails" : "expected [Display is 99] but found [Display is 9]",
+        "time" : {
+          "start" : 1622532626021,
+          "stop" : 1622532632308,
+          "duration" : 6287
+        }
+      }, {
+        "uid" : "896e147427930015",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/12/allure/#testresult/896e147427930015",
+        "status" : "failed",
+        "statusDetails" : "expected [Display is 99] but found [Display is 9]",
+        "time" : {
+          "start" : 1622532626021,
+          "stop" : 1622532632308,
+          "duration" : 6287
+        }
+      }, {
+        "uid" : "f9355d21a1ddf60f",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/11/allure/#testresult/f9355d21a1ddf60f",
+        "status" : "failed",
+        "statusDetails" : "expected [Display is 99] but found [Display is 9]",
+        "time" : {
+          "start" : 1622532626021,
+          "stop" : 1622532632308,
+          "duration" : 6287
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "5d2ecb951340523c.json",
+  "parameterValues" : [ "desktop" ]
+}

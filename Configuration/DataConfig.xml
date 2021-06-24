@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Environment>
+    <!-- TimeOut -->
+    <TimeOut>5</TimeOut>
+
+    <!-- Data Driven Testing -->
+    <DDTFile>./DDTFiles/mortgage.csv</DDTFile>
+
+    #############
+    <!-- Web -->
+    #############
+    <BrowserName>chrome</BrowserName>
+    <url>https://demo.nopcommerce.com</url>
+    <ImageRepo>C:/Users/Oxana/Documents/FinalProject/ImageRepository/</ImageRepo>
+    <!-- Web Registration Form -->
+    <Gender>female</Gender>
+    <FirstName>Oxana</FirstName>
+    <LastName>Drezner</LastName>
+    <DayOfBirth>2</DayOfBirth>
+    <MonthOfBirth>October</MonthOfBirth>
+    <YearOfBirth>1984</YearOfBirth>
+    <Email>foxan@gmail.com</Email>
+    <Company>null</Company>
+    <Password>123456</Password>
+
+
+    #############
+    <!-- Mobile -->
+    #############
+    <!-- Mobile General -->
+    <MobilePlatform>Android</MobilePlatform>
+    <UDID>LMG710EM210b0b9a</UDID>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+    <!-- Mobile Android -->
+    <AppPackage>com.shivgadhia.android.ukMortgageCalc</AppPackage>
+    <AppActivity>.MainActivity</AppActivity>
+    <!-- Mobile IOS -->
+    <BundleID>com.shivgadhia.IOS.ukMortgageCalc</BundleID>
+
+    #############
+    <!-- API -->
+    #############
+    <urlAPI>http://localhost:9000</urlAPI>
+
+    ##################
+    <!-- Electron -->
+    ##################
+    <ElectronDriverPath>./Drivers/electrondriver.exe</ElectronDriverPath>
+    <ElectronAppPath>C:/Automation/Electron Apps/todolist/Todolist.exe</ElectronAppPath>
+
+    ##################
+    <!-- Desktop -->
+    ##################
+    <DesktopAppPath>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</DesktopAppPath>
+    <AppiumServerDesktop>http://localhost:4723</AppiumServerDesktop>
+
+    ##################
+    <!-- Database -->
+    ##################
+    <DBURL>jdbc:mysql://remotemysql.com:3306/255GTCUXEX</DBURL>
+    <DBUserName>255GTCUXEX</DBUserName>
+    <DBPassword>hlhqn1X25N</DBPassword>
+
+
+</Environment>
