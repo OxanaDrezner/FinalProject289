@@ -4,11 +4,7 @@
     <test name="Web Tests">
         <parameter name="PlatformName" value="web"/>
         <classes>
-            <class name="sanity.NopCommerceWEB">
-                <methods>
-                    <include name="Test01_verifyRegistration"/>
-                </methods>
-            </class>
+            <class name="sanity.NopCommerceWEB"/>
         </classes>
     </test>
 </suite>
