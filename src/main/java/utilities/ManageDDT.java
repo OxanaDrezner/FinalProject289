@@ -12,16 +12,30 @@ public class ManageDDT extends CommonOps {
 
     /*
     ###################################################################################
-    Method Name: getDataObject
+    Method Name: getDataObject (DDT Web)
     Method Description: This Method defines the original CSV File and passes received
                         2D Object Array to Data Provider.
     Method Parameters: void
     Method Return Type: 2D Object Array
     ###################################################################################
      */
-    @DataProvider(name = "data-provider")
-    public Object[][] getDataObject() {
-        return getDataFromCSV(getData("DDTFile"));
+    @DataProvider(name = "data-provider-web")
+    public Object[][] getDataObjectWeb() {
+        return getDataFromCSV(getData("DDTFile-WEB"));
+    }
+
+    /*
+    ###################################################################################
+    Method Name: getDataObject (DDT Mobile)
+    Method Description: This Method defines the original CSV File and passes received
+                        2D Object Array to Data Provider.
+    Method Parameters: void
+    Method Return Type: 2D Object Array
+    ###################################################################################
+     */
+    @DataProvider(name = "data-provider-mobile")
+    public Object[][] getDataObjectMobile() {
+        return getDataFromCSV(getData("DDTFile-Mobile"));
     }
 
     /*

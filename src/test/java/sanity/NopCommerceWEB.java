@@ -60,7 +60,7 @@ public class NopCommerceWEB extends CommonOps {
         Verifications.assertElementVisually("LOGO_NopCommerce");
     }
 
-    @Test(description = "Test07 - Search And Verify Products", dataProvider = "data-provider", dataProviderClass = utilities.ManageDDT.class)
+    @Test(description = "Test07 - Search And Verify Products", dataProvider = "data-provider-web", dataProviderClass = utilities.ManageDDT.class)
     @Description("This test Searches And Verifies Products (using DDT)")
     public void Test07_searchAndVerifyProducts(String productName,String shouldExist){
         WebFlows.searchAndVerifyProduct(productName,shouldExist);

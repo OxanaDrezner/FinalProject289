@@ -4,7 +4,8 @@
     <TimeOut>5</TimeOut>
 
     <!-- Data Driven Testing -->
-    <DDTFile>./DDTFiles/products.csv</DDTFile>
+    <DDTFile-WEB>./DDTFiles/products.csv</DDTFile-WEB>
+    <DDTFile-Mobile>./DDTFiles/mortgage.csv</DDTFile-Mobile>
 
     #############
     <!-- Web -->
