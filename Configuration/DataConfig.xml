@@ -20,7 +20,7 @@
     <DayOfBirth>2</DayOfBirth>
     <MonthOfBirth>October</MonthOfBirth>
     <YearOfBirth>1984</YearOfBirth>
-    <Email>foxan@gmail.com</Email>
+    <Email>foxana84@gmail.com</Email>
     <Company>null</Company>
     <Password>123456</Password>
 
@@ -54,6 +54,9 @@
     ##################
     <DesktopAppPath>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</DesktopAppPath>
     <AppiumServerDesktop>http://localhost:4723</AppiumServerDesktop>
+    <!-- Desktop Operating Numbers -->
+    <FirstNumber>1</FirstNumber>
+    <SecondNumber>8</SecondNumber>
 
     ##################
     <!-- Database -->
