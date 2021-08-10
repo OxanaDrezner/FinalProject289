@@ -29,12 +29,15 @@ This project demonstates a **smart** and **easily maintained** automation infras
 * Windows calculator - Desktop application
 
 ### _Tools & Frameworks used:_
+* Selenium WebDriver - for Web automation
+* Appium - for Mobile automation
+* REST Assured - for REST API testing
+* WinAppDriver - for Desktop apps automation
+* MySQL Free Online DB - JDBC
 * TestNG - Testing Framework
 * Listeners - interface used to generate logs and customize the TestNG reports
 * Monte Screen Recorder - for test recordings (using Listeners)
-* MySQL Free Online DB - JDBC
 * [Jenkins CI/CD](https://www.jenkins.io/)- for tests execution
-* REST Assured - for API testing
 * [Allure](http://allure.qatools.ru/) Reports - as the main reporting system of the project
 
 ### _Tests Execution_:
